@@ -1,0 +1,19 @@
+kind: pipeline
+type: docker
+name: musebot
+
+steps:
+- name: docker
+  image: plugins/docker
+  settings:
+    pull_image: true
+    no_cache: true
+    repo: git.bluemedia.dev/bluemedia/musebot
+    tags:
+    - latest
+    purge: true
+    registry: git.bluemedia.dev
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
