@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0] - 2024-01-16
+
+### Added
+- Added `/loop-queue`
+
+## [2.4.4] - 2023-12-21
+
+- Optimized Docker container to run JS code directly with node instead of yarn, npm and tsx. Reduces memory usage. 
+
 ## [2.4.3] - 2023-09-10
 
 ### Fixed
@@ -271,7 +280,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[unreleased]: https://github.com/codetheweb/muse/compare/v2.4.3...HEAD
+[unreleased]: https://github.com/codetheweb/muse/compare/v2.5.0...HEAD
+[2.5.0]: https://github.com/codetheweb/muse/compare/v2.4.4...v2.5.0
+[2.4.4]: https://github.com/codetheweb/muse/compare/v2.4.3...v2.4.4
 [2.4.3]: https://github.com/codetheweb/muse/compare/v2.4.2...v2.4.3
 [2.4.2]: https://github.com/codetheweb/muse/compare/v2.4.1...v2.4.2
 [2.4.1]: https://github.com/codetheweb/muse/compare/v2.4.0...v2.4.1
